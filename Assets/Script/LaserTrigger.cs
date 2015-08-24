@@ -8,18 +8,20 @@ public class LaserTrigger : MonoBehaviour {
 	//Trigger for On/Off the Laser
 	public bool trigger;
 	public LineRenderer laser2;
-
+	
 	void Start(){
 		//Inisiasi awal, laser pasti nyala
 		trigger = true;
 	}
-
+	
 	//Function for Collision Player and Laser
 	void OnTriggerEnter(Collider other){
+		GameObject gameObjectCollide = other.gameObject; //buat manggil fungsi death di gameObject Player
+		gameObjectCollide.tag = "Player";
 		if(trigger==true){
 			if(other.gameObject.tag == "Player")
 			{
-				gameObject.SendMessage("Death"); //call fucntion Death on Player Script
+				gameObjectCollide.SendMessage("Death"); //call fucntion Death on Player Script
 				SwitchOff();
 			}
 		}else if(trigger==false){
