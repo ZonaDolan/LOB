@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 16d4049a2321486499c3954aeb61a533
+timeCreated: 1440765904
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group19282
+    100004: Group19282_MeshPart0
+    100006: Group19282_MeshPart1
+    100008: Group19282_MeshPart2
+    100010: Group19297
+    100012: Group19312
+    100014: Group21060
+    100016: Group21671
+    100018: Group21671_MeshPart0
+    100020: Group21671_MeshPart1
+    100022: Group21671_MeshPart2
+    100024: Group21671_MeshPart3
+    100026: Group26199
+    100028: Group31755
+    100030: Group31755_MeshPart0
+    100032: Group31755_MeshPart1
+    100034: Group44203
+    100036: Group46216
+    100038: Group48744
+    100040: Group61629
+    100042: Group62409
+    100044: mixamorig:Head
+    100046: mixamorig:HeadTop_End
+    100048: mixamorig:Hips
+    100050: mixamorig:LeftArm
+    100052: mixamorig:LeftFoot
+    100054: mixamorig:LeftForeArm
+    100056: mixamorig:LeftHand
+    100058: mixamorig:LeftLeg
+    100060: mixamorig:LeftShoulder
+    100062: mixamorig:LeftToe_End
+    100064: mixamorig:LeftToeBase
+    100066: mixamorig:LeftUpLeg
+    100068: mixamorig:Neck
+    100070: mixamorig:RightArm
+    100072: mixamorig:RightFoot
+    100074: mixamorig:RightForeArm
+    100076: mixamorig:RightHand
+    100078: mixamorig:RightLeg
+    100080: mixamorig:RightShoulder
+    100082: mixamorig:RightToe_End
+    100084: mixamorig:RightToeBase
+    100086: mixamorig:RightUpLeg
+    100088: mixamorig:Spine
+    100090: mixamorig:Spine1
+    100092: mixamorig:Spine2
+    400000: //RootNode
+    400002: Group19282
+    400004: Group19282_MeshPart0
+    400006: Group19282_MeshPart1
+    400008: Group19282_MeshPart2
+    400010: Group19297
+    400012: Group19312
+    400014: Group21060
+    400016: Group21671
+    400018: Group21671_MeshPart0
+    400020: Group21671_MeshPart1
+    400022: Group21671_MeshPart2
+    400024: Group21671_MeshPart3
+    400026: Group26199
+    400028: Group31755
+    400030: Group31755_MeshPart0
+    400032: Group31755_MeshPart1
+    400034: Group44203
+    400036: Group46216
+    400038: Group48744
+    400040: Group61629
+    400042: Group62409
+    400044: mixamorig:Head
+    400046: mixamorig:HeadTop_End
+    400048: mixamorig:Hips
+    400050: mixamorig:LeftArm
+    400052: mixamorig:LeftFoot
+    400054: mixamorig:LeftForeArm
+    400056: mixamorig:LeftHand
+    400058: mixamorig:LeftLeg
+    400060: mixamorig:LeftShoulder
+    400062: mixamorig:LeftToe_End
+    400064: mixamorig:LeftToeBase
+    400066: mixamorig:LeftUpLeg
+    400068: mixamorig:Neck
+    400070: mixamorig:RightArm
+    400072: mixamorig:RightFoot
+    400074: mixamorig:RightForeArm
+    400076: mixamorig:RightHand
+    400078: mixamorig:RightLeg
+    400080: mixamorig:RightShoulder
+    400082: mixamorig:RightToe_End
+    400084: mixamorig:RightToeBase
+    400086: mixamorig:RightUpLeg
+    400088: mixamorig:Spine
+    400090: mixamorig:Spine1
+    400092: mixamorig:Spine2
+    4300000: Group31755_MeshPart0
+    4300002: Group31755_MeshPart1
+    4300004: Group48744
+    4300006: Group21060
+    4300008: Group44203
+    4300010: Group21671_MeshPart0
+    4300012: Group21671_MeshPart1
+    4300014: Group21671_MeshPart2
+    4300016: Group21671_MeshPart3
+    4300018: Group19282_MeshPart0
+    4300020: Group19282_MeshPart1
+    4300022: Group19282_MeshPart2
+    4300024: Group19297
+    4300026: Group19312
+    4300028: Group46216
+    4300030: Group26199
+    4300032: Group61629
+    4300034: Group62409
+    7400000: treadmill_running
+    9500000: //RootNode
+    13700000: Group19282_MeshPart0
+    13700002: Group19282_MeshPart1
+    13700004: Group19282_MeshPart2
+    13700006: Group19297
+    13700008: Group19312
+    13700010: Group21060
+    13700012: Group21671_MeshPart0
+    13700014: Group21671_MeshPart1
+    13700016: Group21671_MeshPart2
+    13700018: Group21671_MeshPart3
+    13700020: Group26199
+    13700022: Group31755_MeshPart0
+    13700024: Group31755_MeshPart1
+    13700026: Group44203
+    13700028: Group46216
+    13700030: Group48744
+    13700032: Group61629
+    13700034: Group62409
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: treadmill_running
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 236
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Group19282
+        weight: 1
+      - path: Group19282/Group19282_MeshPart0
+        weight: 1
+      - path: Group19282/Group19282_MeshPart1
+        weight: 1
+      - path: Group19282/Group19282_MeshPart2
+        weight: 1
+      - path: Group19297
+        weight: 1
+      - path: Group19312
+        weight: 1
+      - path: Group21060
+        weight: 1
+      - path: Group21671
+        weight: 1
+      - path: Group21671/Group21671_MeshPart0
+        weight: 1
+      - path: Group21671/Group21671_MeshPart1
+        weight: 1
+      - path: Group21671/Group21671_MeshPart2
+        weight: 1
+      - path: Group21671/Group21671_MeshPart3
+        weight: 1
+      - path: Group26199
+        weight: 1
+      - path: Group31755
+        weight: 1
+      - path: Group31755/Group31755_MeshPart0
+        weight: 1
+      - path: Group31755/Group31755_MeshPart1
+        weight: 1
+      - path: Group44203
+        weight: 1
+      - path: Group46216
+        weight: 1
+      - path: Group48744
+        weight: 1
+      - path: Group61629
+        weight: 1
+      - path: Group62409
+        weight: 1
+      - path: mixamorig:Hips
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:LeftUpLeg
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase/mixamorig:LeftToe_End
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:RightUpLeg
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase/mixamorig:RightToe_End
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head/mixamorig:HeadTop_End
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+        weight: 1
+      - path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

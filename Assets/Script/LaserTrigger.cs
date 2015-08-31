@@ -18,22 +18,23 @@ public class LaserTrigger : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		GameObject gameObjectCollide = other.gameObject; //buat manggil fungsi death di gameObject Player
 		gameObjectCollide.tag = "Player";
-		if (trigger==true) {
+		if (trigger == true) {
 			if (other.gameObject.tag == "Player") {
-				gameObjectCollide.SendMessage("Death"); //call fucntion Death on Player Script
+				gameObjectCollide.SendMessage("Dead"); //call fucntion Death on Player Script
 				SwitchOff();
 			}
-		} else if (trigger==false) {
+		} else if (trigger == false) {
+			
 		}
 	}
 	//Switch On Laser
 	void SwitchOn() {
-		trigger=true;
+		trigger = true;
 		laser2.enabled = true; //line renderer enable
 	}
 	//Switch Off Laser
 	void SwitchOff() {
-		trigger=false;
+		trigger = false;
 		laser2.enabled = false; //line renderer unable
 	}
 }
